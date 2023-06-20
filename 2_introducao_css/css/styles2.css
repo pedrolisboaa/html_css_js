@@ -1,0 +1,16 @@
+.paragrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 32px;
+}
+
+.p_1, .p_3 {
+    text-transform: uppercase;
+    color: rgb(159, 124, 98);
+}
+
+.p_2{
+    text-transform: lowercase;
+    background-color: rgb(159, 124, 98);
+}
