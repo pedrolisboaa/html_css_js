@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+
+
+p{
+    background-color: grey;
+    font-size: 26px;
+    width: 500px;
+}
+
+.p1{
+   padding: 25px; 
+}
+
+.p2{
+    border: 30px solid red;
+    padding: 50px;
+}
+
+.p3{
+    box-sizing: border-box;
+    border: 30px solid red;
+    padding: 50px;
+}
