@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+
+    <style>
+        .container {
+            border: 2px solid  black;
+            padding: 15px;
+            width: 300px;
+            margin-bottom: 15px;
+            height: 300px;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content{
+            overflow: hidden;
+        }
+
+        .min-content{
+            overflow: scroll;
+        }
+
+        .max-content{
+            overflow: auto;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+
+    </style>
+
+    
+</head>
+<body>
+
+    <div class="container fit-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, libero!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quisquam! Ex laborum porro delectus voluptas. Sit autem facere asperiores at impedit illum quo laborum a. Alias quae, officia voluptatem quis repellat ipsam hic culpa velit atque dolor quibusdam corporis ea enim suscipit maxime voluptatum quod consectetur, aliquid, qui cumque sunt?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur nobis dolores modi dolore quis doloribus omnis, voluptates porro cupiditate? Numquam, excepturi. Eveniet asperiores eaque, dolorem mollitia consequatur commodi unde molestias, suscipit neque aliquam hic facilis numquam praesentium blanditiis, minus omnis. Doloribus molestias, porro nemo consequatur dignissimos voluptate consectetur iusto unde voluptatem incidunt nisi earum sequi ipsa ab optio ea impedit? Delectus temporibus facilis iusto quaerat at est natus distinctio! Laborum quae velit labore et?</div>
+    </div>
+
+    <div class="container min-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, libero!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quisquam! Ex laborum porro delectus voluptas. Sit autem facere asperiores at impedit illum quo laborum a. Alias quae, officia voluptatem quis repellat ipsam hic culpa velit atque dolor quibusdam corporis ea enim suscipit maxime voluptatum quod consectetur, aliquid, qui cumque sunt?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur nobis dolores modi dolore quis doloribus omnis, voluptates porro cupiditate? Numquam, excepturi. Eveniet asperiores eaque, dolorem mollitia consequatur commodi unde molestias, suscipit neque aliquam hic facilis numquam praesentium blanditiis, minus omnis. Doloribus molestias, porro nemo consequatur dignissimos voluptate consectetur iusto unde voluptatem incidunt nisi earum sequi ipsa ab optio ea impedit? Delectus temporibus facilis iusto quaerat at est natus distinctio! Laborum quae velit labore et?</div>
+    </div>
+
+    <div class="container max-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, libero!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quisquam! Ex laborum porro delectus voluptas. Sit autem facere asperiores at impedit illum quo laborum a. Alias quae, officia voluptatem quis repellat ipsam hic culpa velit atque dolor quibusdam corporis ea enim suscipit maxime voluptatum quod consectetur, aliquid, qui cumque sunt?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur nobis dolores modi dolore quis doloribus omnis, voluptates porro cupiditate? Numquam, excepturi. Eveniet asperiores eaque, dolorem mollitia consequatur commodi unde molestias, suscipit neque aliquam hic facilis numquam praesentium blanditiis, minus omnis. Doloribus molestias, porro nemo consequatur dignissimos voluptate consectetur iusto unde voluptatem incidunt nisi earum sequi ipsa ab optio ea impedit? Delectus temporibus facilis iusto quaerat at est natus distinctio! Laborum quae velit labore et?</div>
+    </div>
+    
+</body>
+</html>
