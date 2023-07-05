@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
-    background-color: black;
+    background-color: #0c1014;
 }
 
 .main__container{
@@ -34,16 +34,17 @@ body{
 
 .main__container-nav ul{
     display: flex;
-    width: 50%;
     align-items: center;
-    justify-content: space-between;
+    gap: 22px;
     font-size: 17px;
     list-style: none;
 }
 
 
+
+
 .main__container-nav li:hover{
-    background-color: rgb(219, 253, 23);
+    text-decoration: underline;
 }
 
 h1{
@@ -65,8 +66,9 @@ h1{
     background-color: #3E3E3E;
     padding: 16px;
     height: 300px;
-    min-width: 300px;
+    min-width: 280px;
     display: flex;
+    flex: 1;
     justify-content: space-between;
     flex-direction: column;
     text-align: left;
@@ -109,5 +111,7 @@ span, .cards__item-text{
     font-weight: bolder;
     box-shadow: -2px 2px 1px black;
 }
+
+
 
 
