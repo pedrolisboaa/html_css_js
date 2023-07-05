@@ -3,18 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    background-color: rgb(35, 35, 35);
+    background-color: black;
 }
 
 .main__container{
     width: 70%;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 .main__container-link{
@@ -23,11 +24,12 @@ body{
 }
 
 .main__container-nav{
-    background-color: black;
+    background-color: #252525;
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
     border-radius: 5px;
+    
 }
 
 .main__container-nav ul{
@@ -36,5 +38,76 @@ body{
     align-items: center;
     justify-content: space-between;
     font-size: 17px;
+    list-style: none;
 }
+
+
+.main__container-nav li:hover{
+    background-color: rgb(219, 253, 23);
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 66px;
+    margin: 36px 0;
+    text-shadow: -2px 2px 2px rgb(88, 88, 88);
+}
+
+.cards{
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
+
+.cards__item{
+    background-color: #3E3E3E;
+    padding: 16px;
+    height: 300px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(219, 253, 23);
+    margin-bottom: 12px;   
+}
+
+
+h3{
+    font-size: 30px;
+    text-shadow: -2px 2px 1px black;
+}
+
+span, .cards__item-text{
+    font-size: 12px;
+    
+}
+
+.cards__item-text li{
+    margin-left: 16px;
+    padding: 2px 0 ;
+}
+
+.cards__item-link a {
+    background-color: rgb(219, 253, 23);
+    color: #252525;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    height: 100%;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: -2px 2px 1px black;
+}
+
 
