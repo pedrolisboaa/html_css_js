@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outline e Fonte</title>
+    <style>
+
+        @font-face {
+            font-family: pedroca;
+            src: 
+                local("Nadia Serif"),
+                local("Nadia-Serif"),
+                 url(fonts/pedro/nadia-serif.ttf) format(truetype), 
+                 url(fonts/pedro/nadia-serif.svg) format(woff), 
+                 url(fonts/pedro/nadia-serif.woff) format(svg);
+        }
+
+        @font-face {
+            font-family: amatic;
+            src: 
+                 url(fonts/amatic/Amatic-Bold.ttf) format(truetype);
+        }
+
+
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+            margin: 0 auto;
+            border: 4px solid red;
+            box-sizing: border-box;
+        }
+
+        div:hover{
+            outline: 4px solid red;
+        }
+
+        h1{
+            font-family: pedroca;
+        }
+
+        h2{
+            font-family: amatic;
+
+        }
+    </style>
+  </head>
+
+
+  <body>
+    <h2>Teste com outra fonte</h2>
+    <div>
+
+        <h1>Teste de fonte</h1>
+        
+      
+    </div>
+
+   
+    
+   
+
+
+  </body>
+</html>
