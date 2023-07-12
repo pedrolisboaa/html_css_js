@@ -27,6 +27,16 @@ body{
     font-family: var(--fonte-padrao);
 }
 
+h2{
+    font-family: var(--fonte-titulo);
+    font-size: 3.6rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+
+
 /*CABEÇALHO DA APLICAÇÃO*/
 
 .header__nav{
@@ -75,8 +85,63 @@ body{
 
 .container{
     width: 70%;
-    margin: 0 auto;
+    margin: 8.0rem auto;
+    color: var(--cor-texto);
+}
+
+.container__p{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    line-height: 2;
+}
+
+.container__card{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.name__text{
+    text-align: center;
+}
+
+.moda{
+    color: white;
+    background-image: url(../img/bg_detalhe.png);
+    padding: 6.5rem;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-color: var(--cor-texto-box-com-imagem);
 }
 
 
+.moda h3{
+    font-family: var(--fonte-titulo);
+    font-size: 7.6rem;
+    font-weight: 200;
+}
+
+.moda p {
+    margin-top: 6rem;
+    padding-right: 40% ;
+    line-height: 1.5;
+}
+
+footer{
+    background: var(--cor-fundo-footer);
+    padding: 1.8rem;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
 
