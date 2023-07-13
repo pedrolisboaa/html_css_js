@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprenser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
 
-   <div class="black_container">
-        <header class="header">
+   <div class=" wrapper__dark">
+        <header class="container header">
             <img src="img/logoAprenser.png" alt="logo">
 
             <nav class="header__nav">
@@ -20,11 +26,87 @@
    </div>
 
 
-   <div class="banner_container">
-
-    
-
+   <div class="wrapper__light">
+        <section class="container heroBanner">
+            <h1>
+                O saber é o que transforma nosso <span>ser</span>
+            </h1>
+            <a href="#" class="btn">Saiba mais</a>
+            <img src="img/HeroImage.png" alt="mulher segurando flores">
+        </section>
    </div>
+
+   <div class="wrapper__semidark">
+        <section id="cursos" class="cursos container">
+            <h2>Principais Cursos</h2>
+            <div class="cursos__container">
+                
+                <article class="cursos__container-card">
+                    <img src="img/curso-design.png" alt="">
+                    <div class="cursos__container-conteudo">
+                        <h3>Design para Web</h3>
+                        <p>O curso Design para Web é perfeito para aqueles que desejam aprender 
+                            a criar designs atraentes e funcionais para sites e aplicativos móveis.</p>
+                    </div>
+                </article>
+
+                
+                <article class="cursos__container-card">
+                    <img src="img/curso-design-1.png" alt="">
+                    <div class="cursos__container-conteudo">
+                        <h3>Front End Developer</h3>
+                        <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para 
+                            páginas web, aplicativos on-line ou até mesmo aplicações para aparelhos celulares</p>
+                    </div>
+                </article>
+
+                  
+                <article class="cursos__container-card">
+                    <img src="img/curso-design-2.png" alt="">
+                    <div class="cursos__container-conteudo">
+                        <h3>Back End Developer</h3>
+                        <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, 
+                            um sistema de banco de dados e aprenderá como funciona o protocolo HTTP 
+                            na prática.</p>
+                    </div>
+                </article>
+
+            </div>
+        <a href="" class="btn">Ver Mais Cursos</a>
+
+        </section>
+    </div>
+
+    <div class="wrapper__dark">
+        <section class="container" id="escola">
+            <img src="img/nossa-escola.png" alt="">
+            <h2>Nossa escola</h2>
+            <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.
+            </p>
+        </section>
+    </div>
+
+    <div class="wrapper__light">
+        <section class="container" id="conatos">
+            <h2>Contatos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1689275489055!6m8!1m7!1s61TIXaw_f4cPhcobaaDU1w!2m2!1d-28.46886998378701!2d-52.81337336930223!3f41.761232474814896!4f-3.8922049711028563!5f0.7820865974627469" width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <address id="contatos">
+                Av. da Liberdade, 1001 <br>
+                Tel.: +351 21 123 456<br>
+                E-mail: contato@aprenser.com
+            </address>
+        </section>
+    </div>
+
+    <div class="wrapper__semidark">
+        <footer>
+            Desenvolvido por Pedrão
+        </footer>
+    </div>
+
+
+
+  
     
 </body>
 </html>

@@ -1,0 +1,31 @@
+:root{
+   --fonte:'Inter', sans-serif;
+   --primeira-cor: #FED001
+}
+
+html{
+    /*font-size: 62.5%;
+    font-family: var(--fonte);*/
+    font: 400 62.5% var(--fonte)
+}
+
+p, a{
+    font-size: 1.6rem;
+}
+
+
+span{
+    text-transform: uppercase;
+}
+
+.wrapper__dark{
+    background-color: #2a2a2a;
+}
+
+.wrapper__light{
+    background-color: #fafafa;
+}
+
+.wrapper__semidark{
+    background-color: #003464;
+}
