@@ -11,7 +11,14 @@ html{
 
 h1{
     font-size: 4.2rem;
-    
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
 }
 
 p, a{
@@ -58,7 +65,7 @@ span{
 }
 
 .container{
-    max-width: 110.6rem;
+    max-width: 120.6rem;
     margin: auto;
 }
 
@@ -89,5 +96,47 @@ span{
 
 .hero__title{
     margin-bottom: 5rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+
+.cursos__container{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    
+}
+
+.cursos__container-conteudo{
+    padding: 1rem;
+}
+
+.cursos__container-card{
+    border: 1px solid #ccc;
+    flex: 1;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+
+.cursos__container-card img{
+    display: block;
+    width: 100%;
+}
+
+
+.cursos__container-conteudo h3{
+    font-size: 2.4rem;
+}
+
+.cursos__container-conteudo p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos h2{
+    margin: 3.6rem 0;
 }
 
