@@ -3,7 +3,7 @@
     --azul-claro: #365B73; 
     --branco: #F2F2F2; 
     --cinza: #737373; 
-    --preto: #00090D; 
+    --preto: #101315; 
     --normal: 400;
     --pesada: 900;
     --fonte: 'Tektur', cursive;
@@ -17,13 +17,13 @@
 
 html{
     font-size: 62.5%;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 body{
     background-color: var(--preto);
     color: var(--branco);
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,20 +34,58 @@ body{
 label, input, button {
     width: 100%;
     font-size: 2rem;
-    border: none;
-    background-color: var(--preto);
 }
 
+textarea, input{
+    background-color: #040404;
+    color: white;
+    border: 2px solid transparent;
+    border-bottom-color: var(--cinza);
+    resize: none;
+    margin: 2.0rem 0;
+    outline: 0;
+}
+
+/* input:invalid, textarea:invalid{
+    background-color: red;
+    color: black;
+} */
+
+
+/* input:valid, textarea:valid{
+    background-color: red;
+    color: black;
+} */
+
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom: 4px solid red;
+}
+
+input:valid:focus, textarea:valid:focus{
+    border-bottom: 4px solid #0ec72a;
+}
+
+input:focus, textarea:focus{
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid var(--cinza);
+    
+}
+
+
+
 .container{
- padding: 1.5rem;
+ width: 90%;
  min-width: 40rem;
  max-width: 40vw;
  height: 75vh;
+ background-color: black;
 }
 
 .form{
     display: flex;
     flex-direction: column;
+    
 }
 
 .title_form{
@@ -64,6 +102,7 @@ label, input, button {
 
 .btn{
     margin: 5px;
+    padding: 1rem;
     color: var(--branco);
     background-color: var(--cinza);
     width: fit-content;
