@@ -1,0 +1,5 @@
+console.log(1)
+console.log(1.1)
+console.log(5 ** 3)
+console.log(5 * 3 + 5)
+console.log(5 * (3 + 5))
