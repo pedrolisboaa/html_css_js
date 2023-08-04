@@ -49,3 +49,9 @@ for(let i = 0; i < array.length; i++){
 }
 
 
+// mudando um atributo
+let link = document.querySelector('p a')
+let linkGoogle = 'https://www.google.com.br'
+console.log(link.getAttribute('href'))
+link.setAttribute('href', linkGoogle)
+console.log(link.getAttribute('href'))
