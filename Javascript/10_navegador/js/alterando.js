@@ -55,3 +55,31 @@ let linkGoogle = 'https://www.google.com.br'
 console.log(link.getAttribute('href'))
 link.setAttribute('href', linkGoogle)
 console.log(link.getAttribute('href'))
+
+// Consultado altura e largura
+let tamanhoTitulo = document.querySelector('h1')
+console.log(tamanhoTitulo.offsetWidth) // considerando as bordas
+console.log(tamanhoTitulo.offsetHeight)
+
+console.log(tamanhoTitulo.clientWidth) // sem considerar as bordas
+console.log(tamanhoTitulo.clientHeight)
+
+// pegando as posições
+console.log(tamanhoTitulo.getBoundingClientRect())
+
+// Mudando os CSS com Javascript
+
+tamanhoTitulo.style.color = 'blue'
+
+let todosOsParagrafos = document.querySelectorAll('p')
+for (let i = 0; i < todosOsParagrafos.length; i++) {
+    if(i % 2 == 0){
+        todosOsParagrafos[i].style.backgroundColor = 'orange'
+        todosOsParagrafos[i].style.color = 'blue'
+    }else{
+        todosOsParagrafos[i].style.backgroundColor = 'blue'
+        todosOsParagrafos[i].style.color = 'orange'
+    }
+    
+    
+}
