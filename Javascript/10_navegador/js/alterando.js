@@ -83,3 +83,32 @@ for (let i = 0; i < todosOsParagrafos.length; i++) {
     
     
 }
+// Evento Default 
+
+// Retirando o efeito de click, ou previnindo o efeito
+let google= document.getElementById('google')
+google.addEventListener('click', function(evento){
+    evento.preventDefault()
+    alert('Eu vou é abrir o alert!')
+})
+
+// Evento por tecla
+window.addEventListener('keydown', function(e){
+    if (e.key == 'q'){
+        console.log('Apertou a tecla Q')
+    }
+})
+
+
+window.addEventListener('keyup', function(evento){
+    if(evento.key == 'w'){
+        console.log('Andou para frente uma casa')
+    }
+})
+
+// Evento de mouse
+
+window.addEventListener('mousemove', function(e){
+    console.log(e.x)
+    console.log(e.y)
+})
